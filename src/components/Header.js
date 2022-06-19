@@ -16,13 +16,13 @@ const Header = () => {
     return (
         <div>
             <div style={styleObj}>         
-                <LabelHeader text="Call a Friend"/>
+                <LabelHeader text="Ony Ivantono Friend"/>
             </div>
             <div  style={{fontSize: 20,textAlign: "center"}}>         
-                <LabelHeader text="youre friendly contact App"/>
+                <LabelHeader text="My friendly Contact App"/>
             </div>
             <div style={{fontSize: 20,textAlign: "center"}}>         
-                <PemisahComp dotss="--------------------------------------"/>
+                <PemisahComp dotss="--------------------------------------------"/>
             </div>
         </div>
     )

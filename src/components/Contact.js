@@ -11,19 +11,11 @@ const kontak=contactnya;
 const Contact = ({index}) => {
     return (        
         
-        <div style={{ border: "1px solid black"
-                    ,margin: "10px 400px 10px 400px"
-                    ,backgroundColor: "#E7BAFF"
-                    ,borderRadius: "20px"
-                    ,padding: "20px"
-                    ,boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.00)"
-                    ,textAlign: "center"
-                     }}> 
-            
+        <div className="kotakku"> 
             <div className="row">
                 <div className="column">
-                    <img src={kontak[index].photo} alt="Forest" width="100" height="100"
-                        style={{borderRadius: "20px",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.00)"}} >
+                    <img className="gambar" src={kontak[index].photo} 
+                    alt="Forest" width="120" height="120">
 
                     </img>
 
